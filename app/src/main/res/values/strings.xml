@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MAD</string>
-    <string name="startup_text">Connect to your friends in a unique way</string>
+    <string name="startup_text">Connect to your \n friends in a unique \n way</string>
     <string name="start_messaging">Start messaging</string>
 </resources>
