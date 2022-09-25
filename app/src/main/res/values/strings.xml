@@ -10,4 +10,11 @@
     <string name="Email">Email</string>
     <string name="Name">Name</string>
     <string name="Status">Status</string>
+    <string name="contact_name">Camila Cabello</string>
+    <string name="contact_username">\@ camila</string>
+    <string name="addtofavourites">Add to Favourites</string>
+    <string name="block">Block User</string>
+    <string name="report">Report user</string>
+
+
 </resources>
