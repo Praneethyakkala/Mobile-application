@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/search"
+        app:iconTint="@color/cream"
+        />
+    <item android:title="Location"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:id="@+id/location"
+        android:iconTint="@color/cream"
+        />
+    <item android:title="Chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:id="@+id/chat"
+        android:iconTint="@color/cream"
+        />
+    <item android:title="Setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:id="@+id/setting"
+        android:iconTint="@color/cream"
+        />
+</menu>

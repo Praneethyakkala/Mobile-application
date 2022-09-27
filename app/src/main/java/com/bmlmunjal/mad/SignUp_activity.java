@@ -113,8 +113,6 @@ public class SignUp_activity extends AppCompatActivity {
 
         }
 
-
-
     }
 
     private void sendUserToNextActivity() {
