@@ -12,9 +12,15 @@
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/rectangle_button.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/round.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/round_button.xml" value="0.2125" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_forgot.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_profile_page.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_second.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_setting_page.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_view_page.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/fragment_home_fragment.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/viewprofile.xml" value="0.24895833333333334" />
       </map>
     </option>

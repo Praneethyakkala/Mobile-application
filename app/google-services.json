@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137564090047",
+    "project_id": "connect-4bac7",
+    "storage_bucket": "connect-4bac7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137564090047:android:8c030ee54260e7a1e8a00a",
+        "android_client_info": {
+          "package_name": "com.bmlmunjal.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137564090047-3hvqan3b7b3jvppnlnr3nk1ju0v5cpca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_nZW3KXwoUCMSoJ-BHzsmSw32cjQ_3Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137564090047-3hvqan3b7b3jvppnlnr3nk1ju0v5cpca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

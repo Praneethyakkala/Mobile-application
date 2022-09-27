@@ -39,6 +39,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/getting_btn"
         android:layout_width="327dp"
         android:layout_height="52dp"
         android:background="@drawable/round_button"
