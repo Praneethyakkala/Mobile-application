@@ -32,7 +32,7 @@
         android:layout_marginTop="472dp"
         android:gravity="center"
         android:text="@string/startup_text"
-        android:textColor="@color/white"
+        android:textColor="@color/cream"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
