@@ -45,6 +45,7 @@
             android:textSize="20sp"
             />
     <ImageView
+        android:id="@+id/edit_settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_edit_24"
@@ -208,6 +209,7 @@
 
             />
         <TextView
+            android:id="@+id/logoutbtn_settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ninth_setting"

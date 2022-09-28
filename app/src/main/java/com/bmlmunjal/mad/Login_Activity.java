@@ -161,8 +161,8 @@ public class Login_Activity extends AppCompatActivity {
 }
 
     private void sendUserToNextActivity() {
-        Intent intent=new Intent(Login_Activity.this, profile_page.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+        Intent intent=new Intent(Login_Activity.this, navbar_Activity.class);
+//        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
 }
