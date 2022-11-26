@@ -14,6 +14,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
         android:background="@color/cream"
+        android:fontFamily="@font/ibm_plex_sans"
         android:gravity="center"
         android:text="@string/profile"
         android:textSize="20sp"
@@ -33,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextPhoneNumber"
+        android:id="@+id/editTextEmailId"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -49,9 +50,10 @@
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:text="@string/email"
-        app:layout_constraintEnd_toEndOf="@+id/editTextFName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/editTextUserName"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextFName"
+        app:layout_constraintStart_toStartOf="@+id/editTextUserName"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
@@ -69,7 +71,8 @@
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:text="@string/name"
-        app:layout_constraintStart_toStartOf="@+id/editTextFName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/editTextUserName"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
@@ -79,6 +82,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/Username"
+        android:fontFamily="@font/ibm_plex_sans"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,15 +95,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="12dp"
+        android:fontFamily="@font/ibm_plex_sans"
         android:text="@string/Email"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextFName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextUserName" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
+        android:fontFamily="@font/ibm_plex_sans"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="15dp"
@@ -107,13 +113,14 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhoneNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailId" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+        android:fontFamily="@font/ibm_plex_sans"
         android:layout_marginTop="15dp"
         android:text="@string/Status"
         android:textColor="@color/white"
@@ -123,13 +130,14 @@
 
 
     <EditText
-        android:id="@+id/editTextFName"
+        android:id="@+id/editTextUserName"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@drawable/rectangle_button"
         android:drawableEnd="@drawable/ic_baseline_edit_24"
         android:ems="10"
+        android:fontFamily="@font/ibm_plex_sans"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingStart="20dp"
@@ -137,6 +145,7 @@
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:text="@string/username"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
@@ -150,6 +159,7 @@
         android:background="@drawable/rectangle_button"
         android:drawableEnd="@drawable/ic_baseline_edit_24"
         android:ems="10"
+        android:fontFamily="@font/ibm_plex_sans"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingStart="20dp"
@@ -157,9 +167,10 @@
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:text="@string/name"
-        app:layout_constraintEnd_toEndOf="@+id/editTextFName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/editTextUserName"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextFName"
+        app:layout_constraintStart_toStartOf="@+id/editTextUserName"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <androidx.cardview.widget.CardView
@@ -173,6 +184,7 @@
         app:layout_constraintTop_toBottomOf="@+id/backButtonProfilePage">
 
         <ImageView
+            android:id="@+id/imageViewProfilePic"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/startup"
@@ -181,6 +193,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/plus"
         android:layout_width="40dp"
         android:layout_height="40dp"
         app:cardBackgroundColor="@color/violet"
@@ -196,4 +209,17 @@
             android:layout_marginTop="8dp"
             android:src="@drawable/ic_baseline_edit_24"/>
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/saveButtonProfilePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="@color/violet"
+        android:text="save"
+        android:fontFamily="@font/ibm_plex_sans"
+        app:layout_constraintEnd_toEndOf="@+id/status"
+        app:layout_constraintStart_toStartOf="@+id/status"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
 </androidx.constraintlayout.widget.ConstraintLayout>

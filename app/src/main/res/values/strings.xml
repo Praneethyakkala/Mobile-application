@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MAD</string>
+    <string name="app_name">Connect</string>
     <string name="startup_text">Connect To Your \n Friends In A Unique \n Way</string>
     <string name="start_messaging">Start messaging</string>
     <!--    <string name="username">taylorswift.13</string>-->
@@ -41,7 +41,7 @@
     <string name="forgot_text1">Thats okay it happens!</string>
     <string name="forgot_text2">Enter your email to reset your password</string>
     <string name="reset_forgot">Reset</string>
-<!--    settings-->
+    <!--    settings-->
     <string name="location">Connaught place, Delhi</string>
     <string name="first_setting">Appearance</string>
     <string name="second_setting">chat theme</string>
@@ -52,8 +52,23 @@
     <string name="seventh_setting">Help</string>
     <string name="eighth_setting">Help cenre, contact us, privacy policy</string>
     <string name="ninth_setting">Logout</string>
+    <!-- search -->
+    <string name="search1">Search User</string>
 
+    <!-- Chatpage-->
 
+    <string name="chatpage">Chats</string>
+    <string name="enter_ur_message">Enter Your message</string>
+    <string name="NameInChat">Camila Cabello</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
 
 </resources>

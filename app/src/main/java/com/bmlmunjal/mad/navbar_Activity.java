@@ -12,7 +12,7 @@ import com.google.android.material.navigation.NavigationBarView;
 public class navbar_Activity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
 
-    SearchFragment searchFragment = new SearchFragment();
+//    SearchFragment searchFragment = new SearchFragment();
     LocationFragment locationFragment = new LocationFragment();
     ChatFragment chatFragment = new ChatFragment() ;
     SettingsFragment settingsFragment = new SettingsFragment() ;
@@ -23,15 +23,13 @@ public class navbar_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_navbar);
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        getSupportFragmentManager().beginTransaction().replace(R.id.container,searchFragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container,locationFragment).commit();
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.search:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,searchFragment).commit();
-                        return true;
+
 
                     case R.id.location:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,locationFragment).commit();

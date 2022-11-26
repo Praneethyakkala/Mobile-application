@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/dark" tools:context=".InChatActivity">
+    <!--     <androidx.constraintlayout.widget.ConstraintLayout -->
+    <!--         android:layout_width="match_parent" -->
+    <!--         android:layout_height="match_parent"> -->
+    <!--     </androidx.constraintlayout.widget.ConstraintLayout> -->
+    <ImageView
+        android:id="@+id/backbtn_inchat"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />
+    <!--     <de.hdodenhof.circleimageview.CircleImageView -->
+    <!--         android:layout_width="50dp" -->
+    <!--         android:layout_height="50dp" -->
+    <!--         android:layout_alignTop="@+id/backbtn_inchat" -->
+    <!--         android:layout_alignBottom="@+id/backbtn_inchat" -->
+    <!--         android:layout_marginStart="30dp" -->
+    <!--         android:layout_toEndOf="@+id/backbtn_inchat" -->
+    <!--         android:background="@drawable/startup" /> -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/backbtn_inchat"
+        android:layout_alignBottom="@+id/backbtn_inchat"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="-16dp"
+        android:layout_toEndOf="@+id/backbtn_inchat"
+        android:src="@drawable/img"
+        app:civ_border_color="@color/black" />
+    <TextView android:id="@+id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/profile_image" android:layout_alignBottom="@+id/profile_image" android:layout_marginStart="20dp" android:layout_marginTop="10dp" android:layout_toEndOf="@+id/profile_image" android:fontFamily="@font/ibm_plex_sans" android:text="@string/NameInChat" android:textColor="@color/cream" android:textSize="20sp" android:textStyle="bold"/>
+    <ImageView android:id="@+id/horizontal_line" android:layout_width="match_parent" android:layout_height="5dp" android:layout_below="@+id/profile_image" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_marginTop="30dp" android:background="@drawable/horizontal_line"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/chatRecyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/horizontal_line" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_marginTop="20dp" android:layout_above="@+id/linear"/>
+    <LinearLayout android:id="@+id/linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:orientation="horizontal">
+        <EditText android:id="@+id/etMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3dp" android:layout_weight="1" android:background="@color/cream" android:ems="10" android:hint="Enter your message" android:inputType="text" android:padding="10dp" android:src="@drawable/bg_et_message" android:textColor="@color/black" android:textColorHint="@color/black"/>
+        <ImageView android:id="@+id/send" android:layout_width="50dp" android:layout_height="50dp" android:background="@drawable/ic_send" android:layout_marginLeft="4dp" android:layout_marginRight="4dp"/>
+    </LinearLayout>
+</RelativeLayout>

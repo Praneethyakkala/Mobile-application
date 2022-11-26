@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "137564090047",
+    "firebase_url": "https://connect-4bac7-default-rtdb.firebaseio.com",
     "project_id": "connect-4bac7",
     "storage_bucket": "connect-4bac7.appspot.com"
   },

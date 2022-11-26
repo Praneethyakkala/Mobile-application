@@ -4,30 +4,55 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/background_chat_input.xml" value="0.1805" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/background_content_bottom.xml" value="0.1685" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/background_content_top.xml" value="0.1805" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/background_recieved_message.xml" value="0.1805" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/background_sent_message.xml" value="0.1805" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/bg_et_message.xml" value="0.2015" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/bg_reciever.xml" value="0.2015" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/bg_sender.xml" value="0.2015" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/button_violet.xml" value="0.1685" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/horizontal_line.xml" value="0.1805" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_add.xml" value="0.1685" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.193" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2125" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1685" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.193" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_baseline_thumb_down_24.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/ic_outline_search_24.xml" value="0.175" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/rectangle_button.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/round.xml" value="0.2125" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/drawable/round_button.xml" value="0.2125" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/font/ibm_plex_sans.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_chat_in.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_choose_signup.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_forgot.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_in_chat.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_navbar.xml" value="0.1537037037037037" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_profile_page.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_second.xml" value="0.1537037037037037" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_setting_page.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/activity_view_page.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/chat_layout.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/fragment_home_fragment.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/fragment_location.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/item_container_recieved_message.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/item_container_sent_message.xml" value="0.20427350427350427" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/item_container_user.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/sample_receiver.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/sample_reciever.xml" value="0.4" />
+        <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/sample_sender.xml" value="0.8800000000000001" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/layout/viewprofile.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/menu-v26/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/prane/OneDrive/MAD/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1875" />

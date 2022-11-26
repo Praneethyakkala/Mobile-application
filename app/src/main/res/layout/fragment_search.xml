@@ -1,20 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchFragment"
-    android:background="@color/dark"
-    >
+    android:background="@color/cream"
+    tools:context=".SearchFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment"
-        android:textSize="15dp"
-        android:textColor="@color/white"
-        android:layout_gravity="center"
+<!--    <TextView-->
+<!--        android:id="@+id/textView16"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:fontFamily="@font/ibm_plex_sans"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/search1"-->
+<!--        android:textColor="@color/violet"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/namesearch"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@drawable/round_button"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView16" />-->
+
+    <AutoCompleteTextView
+        android:id="@+id/txtsearch"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        ></AutoCompleteTextView>
+    <ListView
+        android:id="@+id/listdata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtsearch"
         />
 
-</FrameLayout>
+
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="24dp"-->
+    <!--        android:layout_height="24dp"-->
+    <!--        android:layout_marginTop="13dp"-->
+    <!--        android:background="@drawable/ic_outline_search_24"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/editText"-->
+    <!--        app:layout_constraintHorizontal_bias="0.049"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/editText"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/editText" />-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="312dp"-->
+<!--        android:background="@drawable/ic_outline_search_24"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/namesearch"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/namesearch" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:overScrollMode="never"-->
+<!--        android:padding="20dp"-->
+<!--        android:visibility="gone"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/texterrormessage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:textColor="@color/violet"-->
+<!--        android:textSize="12sp"-->
+<!--        android:fontFamily="@font/ibm_plex_sans"-->
+<!--        android:visibility="gone"/>-->
+
+
+
+
+
+
+</RelativeLayout>
